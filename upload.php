@@ -23,6 +23,6 @@ $stmt->bind_param('b', $null);
 $stmt->send_long_data(0, $image);
 $success = $stmt->execute();
 $stmt->close();
-header('location:index.php');
+header('location:index.html');
 exit;
 ?>
